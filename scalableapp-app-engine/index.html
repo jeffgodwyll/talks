@@ -1,0 +1,369 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide dark nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/GDG_Ghana.svg"></span>
+    </article>
+  </slide>
+
+  <slide class="introduce-me-slide segue nobackground">
+    <aside class="gdbar right"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h1>&lt;Jeffrey Godwyll&gt;</h1>
+      <br>
+      <h2>@rey12rey</h2>
+      <p></p>
+    </article>
+    <p class="auto-fadein">
+    </p>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p1 data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  <slide class="segue dark nobackground">
+      <h2>Aspects of Contributing</h2>
+    <article>
+      <br>
+      <br>
+      <ul class="build">
+        <li>Ideas</li>
+        <li>Bug reports</li>
+        <li>Feature requests</li>
+        <li>Reproducing bugs</li>
+        <li>Supporting fellow humans</li>
+        <li>Evangelism & community support</li>
+        <li>Writing code</li>
+      </ul>
+      <footer class="source">source: <a href="http://semicomplete.com/presentations/fossetcon-2014/open-source-is-more-than-code_speaker-notes.pdf"></a>http://semicomplete.com/presentations/fossetcon-2014/open-source-is-more-than-code_speaker-notes.pdf</footer>
+    </article>
+  </slide>
+
+  <!-- <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Version Control &</h2>
+      <h3>Subtitle Placeholder</h3>
+    </hgroup>
+  </slide> -->
+
+  <slide class="segue dark nobackground vcenter">
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vcenter auto-fadein">
+      <h3><b>Version Control & Communication</b></h3>
+    </article>
+  </slide>
+
+  <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Version Control</h2>
+    </hgroup>
+  </slide>
+
+  <slide class="segue dark nobackground">
+      <h3>Types</h3>
+    <article>
+      <br>
+      <ul class="build auto-fadein">
+      Centralised
+        <ul class="auto-fadein build fade">
+          <li>Single central copy of code</li>
+          <ul>
+            <li>Subversion</li>
+          </ul>
+        </ul>
+      Distributed
+        <ul class="auto-fadein build fade">
+          <li>Every user has a copy of the code, with full history of the project</li>
+          <ul>
+            <li>Git</li>
+            <li>Mercurial(hg)</li>
+          </ul>
+        </ul>
+        </li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Centralised > Subversion</h2>
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img src="images/centralized_example.png" alt="Description" title="Description">
+      <footer class="source">source: Vodori Blog</footer>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Distributed Workflow > Git & Hg</h2>
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img src="images/distributed_workflow.png" alt="Description" title="Description">
+      <footer class="source">source: Git SCM</footer>
+    </article>
+  </slide>
+
+  <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Communication</h2>
+    </hgroup>
+  </slide>
+
+  <slide class="segue dark nobackground">
+      <h3>So many...</h3>
+      <br>
+      <br>
+    <article>
+      <ul class="build">
+        <li>Read the documentation/getting started/README file</li>
+        <li>Read through open issues or bugs or feature requests</li>
+        <li>Join the official mailing list</li>
+        <li>Subscribe to discussions related to the project</li>
+        <li>Hang around their irc channel</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide class="segue dark quote nobackground">
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <div class="centered" style="margin-top:2em">
+        <h3>Impossible to talk about all the tools. Each project is unique.</h3>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>My Workflow</h2>
+      <h3>Contributing to mozilla-central</h3>
+      <!-- <h3>Subtitle Placeholder</h3> -->
+    </hgroup>
+  </slide>
+
+  <slide class="segue dark quote nobackground">
+    <aside class="note gray4">
+      <section>
+        <ul class="gray4">
+          <li>Was quite big but braved the weather and cloned it :)</li>
+          <li></li>
+        </ul>
+      </section>
+    </aside>
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>Get the source</h2>
+      <div class="" style="margin-top:2em">
+        <ul class="build">
+          <li>mozilla-central uses mercurial</li>
+          <li>Other projects under mozilla use git</li>
+        </ul>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="segue dark quote nobackground">
+    <aside class="note gray4">
+      <section>
+        <ul class="gray4">
+          <li>The ateam is the automated testing peeps</li>
+        </ul>
+      </section>
+    </aside>
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>Build it :)</h2>
+      <div class="" style="margin-top:2em">
+        <ul class="build">
+          <li>I usually work on firefox builds</li>
+          <li>Then firefox for android</li>
+          <li>And then with the ateam</li>
+        </ul>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="segue dark quote nobackground">
+    <aside class="note gray4">
+      <section>
+        <ul class="gray4">
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+    </aside>
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>Bugzilla FTW!</h2>
+      <div class="" style="margin-top:2em">
+        <ul class="build">
+          <li>Mozilla uses bugzilla to manage bugs</li>
+          <li>There are good first bugs and projects to get started</li>
+        </ul>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="segue dark quote nobackground">
+    <aside class="note gray4">
+      <section>
+        <ul class="gray4">
+          <li>Involved something about memory management for firefox for android</li>
+          <li></li>
+        </ul>
+      </section>
+    </aside>
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>Fix a bug/issue/...</h2>
+      <div class="" style="margin-top:2em">
+        <ul class="build">
+          <li>Take/get assigned a bug</li>
+          <li>Seek help from the channel on Mozilla's irc network related to the project I'm working on</li>
+          <li>Communicate through the process</li>
+        </ul>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="segue dark quote nobackground">
+    <aside class="note gray4">
+      <section>
+        <ul class="gray4">
+          <li>Make necessary changes if</li>
+          <li></li>
+        </ul>
+      </section>
+    </aside>
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>Get my code reviewed</h2>
+      <div class="" style="margin-top:2em">
+        <ul class="build">
+          <li>First I <b>TEST! TEST! TEST!</b></li>
+          <li>Send in a patch or pull request for review depending on the project</li>
+          <li>Follow up</li>
+          <li>Respond to the review</li>
+        </ul>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="segue dark quote nobackground">
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <div class="centered" style="margin-top:2em">
+        <h2>Repeat ;)</h2>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="segue dark quote nobackground">
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <div class="centered" style="margin-top:2em">
+        <h3>So many tools, same(okay similar) flow...</h3>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="segue dark nobackground">
+      <h2>In short</h2>
+    <article>
+      <br>
+      <br>
+      <ul class="build">
+        <li>Clone code</li>
+        <li>Change code</li>
+        <li>Communicate the changes</li>
+        <li>Get code into main tree</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide class="segue dark quote nobackground">
+    <aside class="gdbar right bottom"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <div class="centered" style="margin-top:2em">
+        <h2>Easy peasy right?!</h2>
+      </div>
+    </article>
+  </slide>
+
+  <slide class="thank-you-slide segue nobackground">
+    <aside class="gdbar right"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>&lt;Thank You!&gt;</h2>
+      <p>My Info:</p>
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+  <slide class="logoslide dark nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/GDG_Ghana.svg"></span>
+    </article>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
