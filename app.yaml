@@ -1,0 +1,27 @@
+application: jeffgodwylltalks
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /open-source-contribution-tools-of-the-trade
+  static_files: open-source-tott.html
+  upload: open-source-tott\.html
+
+- url: /scalable-app-engine
+  static_files: scalable-app-engine.html
+  upload: scalable-app-engine\.html
+
+- url: /slide_config\.js
+  static_files: slide_config.js
+  upload: slide_config\.js
+
+- url: /js
+  static_dir: js
+
+- url: /theme
+  static_dir: theme
+
+- url: /images
+  static_dir: images
